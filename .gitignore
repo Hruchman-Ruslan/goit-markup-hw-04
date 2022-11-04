@@ -1,3 +1,6 @@
+#Exciude icons folder
+icons
+
 # Logs
 logs
 *.log
