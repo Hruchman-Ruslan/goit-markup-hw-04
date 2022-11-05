@@ -98,8 +98,6 @@
         background-color: var(--bgr--button);
         color: var(--color--hover-hero);
     }
-
-    
     
     .link-button:hover,
     .link-button:focus {
@@ -116,8 +114,16 @@
 
     .hover-shadow:hover,
     .hover-shadow:focus {
-        box-shadow: var(--box--shadow);
+        box-shadow: var(--box--shadow);  
     }
+
+    .clients-hover:hover,
+    .clients-hover:focus {
+        border: 1px solid var(--hover--color);
+        border-radius: 4px;
+        color: var(--hover--color);
+    }
+
     /* hover-focus styles */
 
     /* ------------------------index------------------------ */
@@ -242,7 +248,6 @@
         background: var(--background--hero);
 
         max-width: 1600px;
-        height: 600px;
         margin-left: auto;
         margin-right: auto;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
@@ -512,7 +517,7 @@
         border-radius: 4px;
         color: var(--color--icons);
     }
-    
+
     .clients-icon {
         fill: currentColor;
     }
@@ -555,9 +560,8 @@
         color: var(--footer-studio);
     }
 
-    .footer-address {
-        /* display: flex; */
-    }
+    /* .footer-address {
+    } */
 
     .address-list {
         margin-right: 70px;
@@ -748,8 +752,10 @@
         color: var(--primary--color);
     }
 
-    /* .portfolio-item {
-    } */
+    .portfolio-item {
+        display: inline-block;
+        text-decoration: none;
+    }
 
      /* ------main-portfolio-------- */
 
